@@ -1,0 +1,118 @@
+body{
+    margin: 1rem;
+    border: 2px solid;
+    border-radius: 15px;
+    
+}
+input, select {
+    width: auto;
+    padding: 12px 20px;
+    margin: 2px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+* {
+    box-sizing: border-box;
+  }
+  .logo {
+    width: 20%;
+    float: left;
+  }
+img{
+   display: block;
+   width: 125px;
+   height: 125px; 
+   overflow: auto;
+   padding: 3px 3px 3px 3px;
+}
+  .heading {
+    width: 80%;
+    float: left;
+    
+  }
+  .mainheading1
+  {
+      font-size: 1rem;
+  }
+  .mainheading{
+      font-size: 3rem;
+      
+  }
+  .mainheading2
+  {
+      font-size: 150%;
+  }
+  .rows{
+    widows: 30%;
+    display:block;
+  
+  }
+  label {
+    /* Other styling... */
+    text-align: right;
+    clear: both;
+    float:left;
+    margin-right:15px;
+}
+  .column{
+    width:100%;
+    display:inline-block;
+    
+}
+.theLabels{
+  
+    width:30%
+    float:left;
+  }
+  .theInputs{
+    
+  
+    width:60%;
+    float:right;
+  }
+  .theInputs1{
+    
+  
+    width:70%;
+    float:right;
+  }
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+    border: 1px;
+  }
+  .col-1 {width: 33%;}
+  .col-2 {width: 25%;}
+  .col-3 {width: 42%;}
+.colblock{
+display: block;
+margin-bottom: 2px;
+
+}
+th{
+    text-align: center;
+}
+td {
+ text-align: center;
+    width:38%;
+  }
+textarea{
+  width:auto;
+  height:auto;
+  
+  }
+  .theInputs2{
+    
+  
+    width:65%;
+    float:right;
+  }
+.boxy td{
+    width:50%;
+}
+  .boxed {
+    border-radius: 5px;
+      }
